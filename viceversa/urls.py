@@ -22,5 +22,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('home/', views.home),
     path('', views.home),
+    path('reversed/', views.reverse, name='reverse'),
 
 ]
